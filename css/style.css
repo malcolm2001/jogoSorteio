@@ -1,0 +1,154 @@
+
+
+
+/*  GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round' , sans-serif;
+    text-decoration: none;
+
+}
+/*HEADER DECORATION */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.5);
+    background-color: #F0F8FF;
+
+}
+
+header a h1{
+    color: #20B2AA;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+/* TAG CONTAINER // PRINCIPAL CLASS */
+.container{
+    width: 100%;
+    height: 85vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #D3D3D3;
+
+}
+
+.container form{
+    background: #87CEFA;
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.container form label{
+    color: #F0F8FF;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+
+}
+
+.container form input{
+    border: 0;
+    outline: 0;
+    margin: 5% 0px; 
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: 300;
+    border-radius: 2px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2) ;
+
+}
+
+.container form input:focus{
+    box-shadow: inset 1px 4px 2px 1px rgba(0,0,0,0.2);
+}
+
+.container form button{
+    cursor: pointer;
+    margin-top: 1%;
+    border: 0;
+    outline: 0;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    background: #1E90FF;
+    color: #F0F8FF;
+    transition: 0.5s ease-in-out;
+}
+
+.container form button:hover{
+    color:#1E90FF;
+    background:#E0FFFF;
+}
+
+/* SECTION */
+.container .result-box{
+    margin-top: 3%;
+    width: 40%;
+    background: #F0F8FF;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.2);
+    color: #1E90FF;
+}
+
+.container .result-box h2{
+    margin: 2% 0%;
+    font-weight: 100;
+}
+
+.container .result-box span{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+/* BOTAO JOGAR DE NOVO */
+.container #btnRestart{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    background: #F0F8FF;
+    color: #1E90FF;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    display: none;
+
+
+    transition: 0.5s ease-in-out;
+}
+
+
+.container #btnRestart:hover{
+    background: #1E90FF;
+    color: #F0F8FF;
+}
+
+footer{
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.1);
+    background: #F0F8FF;
+
+}
+
+footer p{
+    color: #1E90FF;
+    font-size: 1rem;
+    font-weight: 200;
+}
